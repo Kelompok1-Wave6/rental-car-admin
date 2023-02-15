@@ -1,0 +1,124 @@
+/* SIDEBAR CSS */
+.sidebar {
+    position: fixed;
+    height: 100vh;
+    width: 70px;
+    background: #0D28A6;
+    z-index: 20;
+}
+
+.logo {
+    margin-top: 18px;
+    text-align: center;
+}
+
+.sidebar-icon {
+    text-align: center;    
+}
+
+.sidebar-dashboard {
+    margin-top: 18px;
+}
+.sidebar-icon:hover{
+    background:rgba(255, 255, 255, 0.3);
+  }
+.active>div {
+    background: #5568c1;
+}
+
+
+
+/* HEADER CSS */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 70px;
+    height: 70px;
+    width: 100%;
+    background: #fff;
+}
+  
+.header {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+    
+.header-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+    
+.header-logo {
+    background: #cfd4ed;
+    height: 34px;
+    width: 100px;
+    margin-left: 24px;
+    
+}
+  
+.menu-icon {
+    color: #8b8b8b;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 120px;
+    width: 40px;
+}
+  
+.header-container .header-main {
+    margin-top: 16px;
+    margin-right: 5rem;
+}
+  
+.nav-container {
+    background: #fff;
+    height: 100vh;
+    width: 220px;
+    left: 70px;
+    top: 70px;
+    position: sticky;
+}
+
+.admin-profile {
+  display: flex;
+}
+
+.admin-logo{
+  margin-right: 8px;
+}
+ 
+
+/* NAVBAR CSS */
+.nav-dashboard, .nav-cars {
+  
+    position: sticky;
+}
+  
+.menu-title {
+    margin-top: 34px;
+    margin-left: 27.5px;
+}
+  
+h5.nav-dash {
+    font-weight: 700;
+    font-size: 14px;
+    color: #8a8a8a;
+}
+  
+p.layout {
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: 14px;    
+}
+  
+.grey {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: row;
+    padding: 11px 24px;
+    gap: 8px;
+    background: #CFD4ED;
+    height: 42px;
+}
+   

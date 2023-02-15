@@ -1,0 +1,18 @@
+.breadcrumb {
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+li.breadcrumb-item.active {
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
+  
+li.breadcrumb-item a {    
+  font-family: 'Rubik';
+  font-weight: 300;
+  font-size: 15px;
+  color: #222222;
+}

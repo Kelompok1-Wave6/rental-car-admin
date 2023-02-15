@@ -1,0 +1,7 @@
+.dashboard-page, .car-page {
+    display: flex;
+    position: relative;
+    background: #E5E5E5;
+    height: 360vh;
+}
+

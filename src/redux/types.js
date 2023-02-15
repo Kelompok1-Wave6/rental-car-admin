@@ -1,0 +1,9 @@
+const TYPES = {
+    POST_LOGIN: "POST_LOGIN",
+    GET_ORDERS: "GET_ORDERS",
+    GET_DATA_ORDER: "GET_DATA_ORDER",
+    GET_THE_MONTH_ORDER_DATA: "GET_THE_MONTH_ORDER_DATA",
+  }
+  
+  export default TYPES
+  

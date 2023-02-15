@@ -1,0 +1,125 @@
+/* DASHBOARD.JS */
+.dashboard {
+    height: 100vh;
+    margin-top: 70px;
+    margin-left: 100px;
+    max-width: 1300px;
+    padding: 0 1rem
+    
+}
+  
+.dashboard-container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+/* CHART.CSS */
+.rented-car-chart {
+    margin-top: 54px;
+}
+  
+.chart-container {
+      height: 100%;
+      width: 1000px;
+      position: relative;
+    }
+  
+      .chart_total-order {
+        position: absolute;
+        top: 40%;
+        left: -90px;
+        transform: rotate(270deg);
+      }
+  
+      .chart_date-order {
+        margin-top: 20px;
+        text-align: center;
+      }
+   
+  
+
+
+      .chart-filter {
+        margin-top: 20px;}
+      
+        .chart-filter-container {
+          flex-direction: column;}
+      
+          .filter 
+            select {
+            
+              height: 36px;
+              border: 1px solid #d0d0d0;
+              border-radius: 2px;
+              padding: 0 1rem;
+            }
+
+
+         
+            .chart-title, .list-title {
+              margin-top: 38px;
+          }
+          .chart-title-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 8px;
+        
+            height: 24px;
+        }
+
+        
+        
+/* LIST ORDER.JS */
+.list-table-container {
+    height: 100%;
+    width: 100%;
+    background: white;
+    margin-top: 20px;
+   
+  }
+  .list-title-container{
+    display: flex;
+flex-direction: column;
+gap: 2rem;
+width: 350px;
+}
+    .btn-primary {
+      width: 43px;
+      height: 36px;
+      background-color: #0d28a6;
+      border: 1px solid #0d28a6;
+      border-radius: 2.6666666667px;
+      color: #fff;
+   
+      display: inline-block;
+
+      text-decoration: none;
+  }
+  .btn-primary:hover {
+    background-color: transparent;
+    border: 1px solid #0d28a6;
+    color: #0d28a6;
+}
+
+
+h2.title{
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+    h3.rented{
+      font-weight: 700;
+      font-size: 14px;
+      margin-top: 0;
+      margin-bottom: 0rem;
+      
+    }
+
+    aside {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+  }
+  
